@@ -1,0 +1,58 @@
+## Build results
+bin/
+obj/
+
+## User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## Visual Studio Code settings
+.vscode/
+
+## Visual Studio folder
+.vs/
+
+## ReSharper
+*.DotSettings.user
+
+## NuGet packages (if you're not committing packages)
+packages/
+*.nupkg
+*.snupkg
+
+## Rider settings
+.idea/
+
+## Auto-generated files
+Generated_Code/
+
+## Logs
+*.log
+
+## Crash dumps
+*.dmp
+
+## Publish output
+publish/
+
+## Azure Pipelines
+*.azure-pipelines.yml
+
+## JetBrains Rider
+.idea/
+
+## Local test results
+TestResults/
+
+## Backup & temp files
+*.bak
+*.tmp
+*.temp
+
+## Mac system files
+.DS_Store
+
+## Windows Thumbs.db
+Thumbs.db
