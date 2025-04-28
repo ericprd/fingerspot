@@ -7,7 +7,7 @@
     <ProjectGuid>{9A61CEF0-BCF3-46CF-8EB6-0D7A6CE1BC77}</ProjectGuid>
     <OutputType>WinExe</OutputType>
     <RootNamespace>RedLight</RootNamespace>
-    <AssemblyName>RedLight</AssemblyName>
+    <AssemblyName>clear</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

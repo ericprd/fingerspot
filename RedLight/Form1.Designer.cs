@@ -33,12 +33,13 @@
             this.fingerBox = new System.Windows.Forms.PictureBox();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.clearbtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.fingerBox)).BeginInit();
             this.SuspendLayout();
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(116, 721);
+            this.button1.Location = new System.Drawing.Point(116, 660);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(330, 70);
             this.button1.TabIndex = 0;
@@ -73,11 +74,23 @@
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
+            // clearbtn
+            // 
+            this.clearbtn.Enabled = false;
+            this.clearbtn.Location = new System.Drawing.Point(187, 745);
+            this.clearbtn.Name = "clearbtn";
+            this.clearbtn.Size = new System.Drawing.Size(149, 44);
+            this.clearbtn.TabIndex = 3;
+            this.clearbtn.Text = "clear";
+            this.clearbtn.UseVisualStyleBackColor = true;
+            this.clearbtn.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Window
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(11F, 24F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(566, 848);
+            this.Controls.Add(this.clearbtn);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.fingerBox);
             this.Controls.Add(this.button1);
@@ -100,6 +113,7 @@
         private System.Windows.Forms.PictureBox fingerBox;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.Button clearbtn;
     }
 }
 
